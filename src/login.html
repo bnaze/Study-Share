@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <!--<![endif]-->
+  <head>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    <title>Login/Sign up</title>
+
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="main.css" />
+
+  </head>
+
+  <body>
+    <div class="navbar">
+      <ul>
+        <li id="logo">Study Share</li>
+        <li><a href="./index.php">Home</a></li>
+      </ul>
+    </div>
+
+    
+    <body>
+      <center>
+        <div class="FormDiv">
+          <table class="FormTable">
+            <tr>
+              <td valign="top" style="border-right:1px solid #ccc;">
+                <h1>Sign Up</h1>
+                <p>Please fill in this form to create an account.</p>
+              </td> 
+
+              <td valign="top" style="padding-left: 20px;">
+                  <h1>Login</h1>
+                  <p>Please fill in this form to login.</p>
+              </td>
+
+            </tr>
+
+            <tr>
+              
+              <td valign="top">
+                <hr></hr>
+                <form action="http://localhost/Study_Share_v2/src/register.php" method ="post" style="border-right:1px solid #ccc;" class="formbody" >
+                  <table>
+                    <tr><td valign="top" class="TextBoxPart">
+                      <p>
+                        <label><b>Email</b></label>
+                      </p>
+                      <input type="text" placeholder="Enter Email" name="email" id="Regemail" required>
+
+                      <p>
+                        <label><b>User type</b></label>
+                      </p>
+                      <select class="Dropdown" name="userType" placeholder="Student" id="RegStudent" required>
+                        <option value="Student">Student</option>
+                        <option value="Teacher">Teacher</option>
+                      </select>
+
+                      <p>
+                        <label><b>Username</b></label>
+                      </p>
+                      <input type="text" placeholder="Enter username" name="username" id="Regusername"  required>
+
+                      <p>
+                          <label><b>Firstname</b></label>
+                      </p>
+                      <input type="text" placeholder="Enter firstname" name="fname" id="Regfname"  required>
+
+                      <p>
+                          <label><b>Surname</b></label>
+                      </p>
+                      <input type="text" placeholder="Enter surename" name="sname" id="Regsname"  required>
+                    
+                      <p>
+                        <label><b>Password</b></label>
+                      </p>
+                      <input type="password" placeholder="Enter Password" name="psw" id="Regpsw" required>
+                    
+                      <p>
+                        <label><b>Repeat Password</b></label>
+                      </p>
+                      <input type="password" placeholder="Repeat Password" name="psw-repeat" id="Regpsw-repeat" required>
+                        
+                    <br/><br/>
+                    
+                        <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+                      </td></tr>
+
+                    <tr><td valign="bottom">
+                      <input class="btn" type="submit" id="signupbtn" name="register" value="Register"/>
+                      <p id = "RegisterError"></p>
+                    </td></tr>
+
+                    </table>
+                  </form>
+              </td>
+
+              <td valign="top">
+                <hr></hr>
+                  <form action="http://localhost/Study_Share_v2/src/login.php" class="formbody"  method ="post">
+                    <table>
+                      <tr><td valign="top" class="TextBoxPart" style="padding-left: 20px;">
+                        <p>
+                          <label><b>Username</b></label>
+                        </p>
+                        <input type="text" placeholder="Enter Username" name="loginUsername" id="loginUsername" required>
+                        
+                        <p>
+                          <label><b>Password</b></label>
+                        </p>
+                        <input type="Password" placeholder="Enter Password" name="loginPassword" id="loginPassword" required>
+                        <span class="psw"> <a href="#">Forgot password?</a></span>
+                        <br/>
+                        <input type="checkbox" checked="checked" name="remember"> Remember me
+                      </td></tr>
+
+                    <tr><td valign="bottom">
+                      <input class="btn" type="submit" id="Loginbtn" name="login" value="Login"/>
+                      <p id = "loginError"></p>
+                    </td></tr>
+                  </table>
+
+                </form>
+              </td>
+
+            </tr>
+
+            <tr>
+
+              <td>
+                <hr></hr>
+              </td>
+
+              <td>
+              <hr></hr>
+            </td>
+
+            </tr>
+          </table>
+
+        </div>
+      </center>
+
+    </body>
+
+    <script src="" async defer></script>
+  </body>
+</html>

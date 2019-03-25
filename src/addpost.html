@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html class="no-js">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Add post</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="navbar">
+        <ul>
+          <li id="logo">Study Share</li>
+          <li><a href="./index.php">Home</a></li>
+          <li style="float:right"><a style="padding:3px;" href="./UserPage.php"><img src="./Images/UserIcon.png" width="50" height="50"/></a></li>
+        </ul>
+    </div>
+
+    <div class="FormDiv">
+        <table class="FormTable" style="margin-left: 30%">
+
+        <tr>
+          <td valign="top">
+            <h1>Add Post</h1>
+            <p>Please fill in this form to upload your notes.</p>
+          </td> 
+        </tr>
+
+        <tr>
+          <td valign="top">
+            <hr></hr>
+            <form action="addpost.php" method ="post" enctype="multipart/form-data"  class="formbody" >
+              <table>
+                <tr>
+                  <td valign="top" class="TextBoxPart">
+                    <p>
+                      <label><b>Title</b></label>
+                    </p>
+                    <input type="text" placeholder="Enter title" name="title" required>
+
+                    <p>
+                      <label><b>Education Level</b></label>
+                    </p>
+                    <select class="Dropdown" name="eduLevel" required>
+                      <option value="A-Level">A-Levels</option>
+                      <option value="GCSE">GCSE</option>
+                    </select>
+
+                    <p>
+                      <label><b>Subject</b></label>
+                    </p>
+                    <select class="Dropdown" name="subject" required>
+                      <option value="maths">Mathematics</option>
+                      <option value="Science">Science</option>
+                      <option value="English">English</option>
+                    </select>
+
+                    <p>
+                      <label><b>Upload File</b></label>
+                    </p>
+                    <input type="file" name="fileToUpload" id="fileToUpload" required/>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td valign="bottom">
+                    <br>
+                    <input class="btn" type="submit" id="signupbtn" name="submit" value="Submit"/>
+                  </td>
+                </tr>
+              </table>
+            </form>
+          </td>
+        </tr>
+      </table>
+    </div>     
+  </body>
+</html>

@@ -1,0 +1,300 @@
+/** Nav Bar **/
+
+#logo {
+  color: antiquewhite;
+  font-size: 25px;
+  margin-top: 14px;
+  margin-left: 5px;
+  margin-right: 5px;
+  font-style: italic;
+}
+
+.navbar ul {
+  height: 56px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 25px;
+  width: 100%;
+  top: 0;
+  position: fixed;
+  left: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover:not(.active) {
+  background-color: #111;
+}
+
+/** Body **/
+
+body {
+  background-image: url("./Images/background.png");
+  padding: 0px;
+}
+
+/*Buttons*/
+.button {
+  width: 95%;
+  height: 90%; 
+  font-size: 70px;
+  padding: 15px 25px;
+  cursor: pointer;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(100, 100, 100, 0.95);
+  border: none;
+  border-radius: 5px;
+}
+
+.button:hover {
+  background-color: red;
+}
+
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+
+/* CSS FOR LOGIN PAGE */
+
+  .Dropdown {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+    border: none;
+  }
+
+  input[type=text], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    background: #f1f1f1;
+    border: none;
+  }
+  
+  input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+  
+  /* Set a style for all buttons */
+  .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 6px;
+    border: none;
+    cursor: pointer;
+    width: 410px;
+    opacity: 0.9;
+  }
+  
+  .btn:hover {
+    opacity:1;
+  }
+  
+  /* Add padding to container elements */
+  .container {
+    float: left;
+    padding: 16px;
+    background-color: white;
+  }
+
+.logbody{
+  width: 40%;
+  height: 100%;
+  float: left;
+  font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
+  /*margin-top: -549px; */
+  background-color: white;
+  padding-bottom: 16px;
+}
+
+/* Form body */
+
+
+.formbody{
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px;
+ }
+
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
+
+.logcontainer{
+  padding: 20px;
+  padding-bottom: 60px;
+  background-color: white;
+}
+
+.FormTable{
+  background-color: rgba(255,255,255,0.96);
+  padding: 20px;
+}
+
+.FormDiv{
+  padding-top: 106px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.TextBoxPart{
+  height: 290px;
+}
+
+#loginError, #RegisterError {
+  word-wrap: break-word;
+}
+
+.UserPageDiv{
+  padding-top: 106px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.UserTable{
+  background-color: rgba(255,255,255,0.96);
+  padding: 20px;
+  min-width: 500px;
+  width: 80%;
+}
+
+.DefaultTable{
+  background-color: rgba(255,255,255,0.96);
+  padding: 1px;
+  min-width: 500px;
+  width: 80%;
+  text-align: center;
+  font-size: 65px;
+  border-radius: 3px;
+  color: black;
+  margin-top: 106px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.UserInfo{
+  width: 500px;
+  font-size: 20px;
+}
+
+.UserInfo tr td {
+  padding: 10px;
+}
+
+.PostGrid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  min-width: 500px;
+  width: 80%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.96);
+  border: 6px solid rgba(0, 0, 0, 0.1);
+}
+
+.grid-item {
+  background-color: rgba(255, 255, 255, 0.96);
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  height: 100px;
+}
+
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+
+.dropdown {
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+  width: auto;
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.large-grid-item{
+  background-color: rgba(255, 255, 255, 0.96);
+  border: 6px solid rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.VoteButtons{
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  text-align: center;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px;
+  padding: 10px;
+  border-radius: 50%;
+  width:40px;
+  height: 40px;
+}
+
+img {
+  size: 100%;
+}
+
+
+
