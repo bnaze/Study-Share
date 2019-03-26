@@ -1,3 +1,12 @@
-# Study-Share
-Software Engineering Project, a website for students to share and download notes
-Uses PHP 5.0
+### Study-Share
+###General:
+Software Engineering group project -> Creating a website for students to share/download notes posted by users
+
+###Tools:
+PHP 5.0 and SQL
+
+###Contributions:
+- Deniz Kandal
+- Md Mabrur Husan Dihyat
+- Rohman Rayhannur
+
