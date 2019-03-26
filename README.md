@@ -1,11 +1,11 @@
 ### Study-Share
-###General:
+#General:
 Software Engineering group project -> Creating a website for students to share/download notes posted by users
 
-###Tools:
+#Tools:
 PHP 5.0 and SQL
 
-###Contributions:
+#Contributions:
 - Deniz Kandal
 - Md Mabrur Husan Dihyat
 - Rohman Rayhannur
