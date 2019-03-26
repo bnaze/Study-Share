@@ -1,4 +1,4 @@
-### Study-Share
+# Study-Share
 #General:
 Software Engineering group project -> Creating a website for students to share/download notes posted by users
 
